@@ -1,13 +1,14 @@
 import React from 'react';
-import content from './data/data';
-import styled from 'styled-components';
 import ParticlesBG from './components/particles';
+import Navbar from './components/particles/navbar/Navbar';
+import Data from './data/Data';
 
 
 function App() {
   return (
       <>
         <ParticlesBG/>
+        <Navbar data={Data}/>
       </>
   )
 }
